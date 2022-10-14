@@ -225,6 +225,31 @@ address {
     color: var(--accent-color);
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+
+}
+
+.socials {
+    margin-left: 70px;
+}
+
+.socials-invite {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color-text)
+}
+
+.socials-list {
+    display: flex;
+    gap: 10px;
+}
 
 /* index.html css */
 
