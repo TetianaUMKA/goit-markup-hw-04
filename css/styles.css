@@ -9,9 +9,10 @@
     --white-color-text: #FFFFFF;
     --main-color-bg: #FFFFFF;
     --secondary-color-bg: #F5F4FA;
-    --accent-color-bg: #2F303A;
+    --footer-color-bg: #2F303A;
     --active-button: #188CE8;
     --card-border-color: #EEEEEE;
+    --hero-color-bg: #C4C4C4;
     --contacts-footer: rgba(255, 255, 255, 0.6);
 }
 
@@ -185,7 +186,7 @@ button {
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--accent-color-bg);
+    background-color: var(--footer-color-bg);
 }
 
 address {
@@ -254,13 +255,22 @@ address {
 /* index.html css */
 
 .hero {
-    padding: 200px 0;
-    text-align: center;
-    background-color: var(--accent-color-bg);
+    text-align: center;   
+}
+
+.hero > .overlay {
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--hero-color-bg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");     
 }
 
 .container.hero-center {
+    padding: 200px 0;
     max-width: 696px;
+    
 }
 
 .hero-title {
