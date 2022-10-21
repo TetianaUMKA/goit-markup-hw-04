@@ -183,6 +183,11 @@ button {
     color: var(--accent-color);
 }
 
+.header-contacts-icon {
+    margin-right: 10px;
+}
+
+
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -251,6 +256,31 @@ address {
     display: flex;
     gap: 10px;
 }
+
+.cosials-item-footer {
+    width: 44px;
+    height: 44px;
+}
+
+.cosials-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-icon {
+    fill: var(--white-color-text);
+}
+
+.cosials-link-footer:hover,
+.cosials-link-footer:focus {
+    background-color: var(--accent-color);
+}
+
 
 /* index.html css */
 
@@ -397,6 +427,35 @@ address {
     letter-spacing: 0.03em;
 }
 
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+.clients-logo {
+    flex-basis: calc((100% -150px) / 6);
+    height: 92px;
+}
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.logo-icon {
+    fill: #AFB1B8;
+}
+.logo-link:hover {
+    border-color: var(--accent-color);
+}
+.logo-link:hover .logo-icon,
+.logo-link:focus .logo-icon {
+    fill: var(--accent-color);
+}
+
+
 /* portfolio.html css */
 
 .portfolio-filter {
@@ -438,7 +497,8 @@ address {
     display: inline-block;
 }
 
-.portfolio-card-link:hover {
+.portfolio-card-link:hover,
+.portfolio-card-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
