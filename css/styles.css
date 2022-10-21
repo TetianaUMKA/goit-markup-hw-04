@@ -368,7 +368,6 @@ address {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    width: 270px;
     height: 120px;
     background-color: var(--secondary-color-bg);
 }
