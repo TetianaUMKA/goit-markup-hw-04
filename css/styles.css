@@ -263,12 +263,12 @@ address {
     gap: 10px;
 }
 
-.cosials-item {
+.socials-item {
     width: 44px;
     height: 44px;
 }
 
-.cosials-link-footer {
+.socials-link-footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,12 +278,12 @@ address {
     border-radius: 50%;
 }
 
-.cosials-icon-footer {
+.socials-icon-footer {
     fill: var(--white-color-text);
 }
 
-.cosials-link-footer:hover,
-.cosials-link-footer:focus {
+.socials-link-footer:hover,
+.socials-link-footer:focus {
     background-color: var(--accent-color);
 }
 
@@ -434,8 +434,8 @@ address {
     margin-bottom: 16px;
 }
 
-/* .cosials-list and .cosials-item create added above */
-.cosials-link {
+/* .socials-list and .socials-item create added above */
+.socials-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -445,17 +445,17 @@ address {
     border-radius: 50%;
 }
 
-.cosials-icon {
+.socials-icon {
     fill: #AFB1B8;
 }
 
-.cosials-link:hover,
-.cosials-link:focus {
+.socials-link:hover,
+.socials-link:focus {
     background-color: var(--accent-color);
 }
 
-.cosials-link:hover .cosials-icon,
-.cosials-link:focus .cosials-icon {
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
     fill: var(--white-color-text);
 }
 
