@@ -238,7 +238,7 @@ address {
 
 .footer {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 
 }
 
