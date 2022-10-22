@@ -167,7 +167,8 @@ button {
 }
 
 .header-contacts .contacts {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     font-style: normal;
@@ -291,22 +292,17 @@ address {
 /* index.html css */
 
 .hero {
-    text-align: center;   
-}
-
-.hero > .overlay {
+    text-align: center;
     max-width: 1600px;
-    min-height: 600px;
+    padding: 200px 0;
     margin-left: auto;
     margin-right: auto;
     background: var(--hero-color-bg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");     
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
 }
 
 .container.hero-center {
-    padding: 200px 0;
     max-width: 696px;
-    
 }
 
 .hero-title {
