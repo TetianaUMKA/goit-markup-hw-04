@@ -385,9 +385,13 @@ address {
     letter-spacing: 0.03em;
 }
 
-.presentation {
+.presentation-list {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+}
+
+.presentation-item {
+   flex-basis: calc((100% - 60) / 3);
 }
 
 .team {
