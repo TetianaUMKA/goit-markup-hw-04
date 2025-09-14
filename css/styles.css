@@ -232,6 +232,21 @@ img {
   /* width: calc((100% - 3 * 24px) / 4); */
 }
 
+.features-item-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 24px;
+  background-color: #f4f4fd;
+}
+
+.features-item-icon {
+  width: 64px;
+  height: 64px;
+}
+
 .features-item-title {
   margin-bottom: 8px;
 }
