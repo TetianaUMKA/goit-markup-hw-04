@@ -109,6 +109,7 @@ img {
 
 .nav-link {
   display: inline-block;
+  position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -123,8 +124,19 @@ img {
   color: #404bbf;
 }
 
-.nav-link:active {
+.active {
   color: #404bbf;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
 }
 
 .address {
