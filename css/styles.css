@@ -81,6 +81,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -163,6 +165,7 @@ img {
 }
 
 .hero-section {
+  max-width: 1440px;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -241,7 +244,7 @@ img {
   align-items: center;
   width: 264px;
   height: 112px;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -369,8 +372,8 @@ img {
 }
 
 .portfolio-item:hover .portfolio-item-text-content {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item-title {
@@ -385,9 +388,12 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 114px;
+  align-items: baseline;
 }
 
+.footer-info {
+  margin-right: 120px;
+}
 .footer .logo-accent {
   color: #f4f4fd;
 }
